@@ -148,3 +148,55 @@ section {
   width: 791px;
   height: 60px;
 }
+
+/* SECTION METRICAS */
+#metricas-container {
+  margin-top: 96px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+
+#metricas-container div {
+  width: 275px;
+  height: 192px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#metricas-container div h1 {
+  color: var(--main-color);
+
+  font-size: 60px;
+  font-weight: 550;
+  line-height: 72px;
+  letter-spacing: -0.02em;
+
+  margin-bottom: 12px;
+}
+
+#metricas-container div span {
+  font-size: 18px;
+  font-weight: 550;
+  line-height: 28px;
+  color: var(--title-section-color);
+
+  margin-bottom: 8px;
+}
+
+#metricas-container div p {
+  color: var(--text-color);
+
+  font-weight: 400;
+  line-height: 24px;
+
+  height: 72px;
+}
+
+#metricas-container div .m1 {
+  height: 48px;
+}
